@@ -22,7 +22,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('payments.urls')),
     path('', views.index),
     path('gateway', views.gateway),
 ]
